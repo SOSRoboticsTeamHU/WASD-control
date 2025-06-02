@@ -86,7 +86,7 @@ def test_everything(movement):
 	test_movement(movement)
 
 if __name__ == "__main__":
-	left_motor = Motor( 11, 13 )
-	right_motor = Motor( 19, 15 )
+	left_motor = Motor( 17, 27 )
+	right_motor = Motor( 10, 22 )
 	movement = Movement( left_motor, right_motor )
 	test_everything( movement )
